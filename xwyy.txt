@@ -1,0 +1,14 @@
+<h1><strong><font e="font-size:3px">像我一样</font></strong></h1>
+<html>
+       <body>
+             <img src="https://p2.ssl.qhimgs1.com/t01b20c307c6824168c.jpg" alt="台风少年团">
+       </body>
+       <p>歌词显示：</p>
+       <ol>
+              <li>星星睡在银河臂湾</li>
+              <li>各自闪着不同神采</li>
+              <li>唯有一颗独自呢喃</li>
+              <li>怎么才能亮得不平凡</li>
+       </ol>
+       <p><strong>歌手</strong>:<a href="https://baike.so.com/doc/5108964-27113771.html">马嘉祺</a>  <a href="https://baike.so.com/doc/24215627-24868754.html">丁程鑫</a>  <a href="https://baike.so.com/doc/24689754-25589448.html">宋亚轩</a>  <a href="https://baike.so.com/doc/10040269-28165438.html">刘耀文</a></p>
+</html>
