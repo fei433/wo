@@ -1,14 +1,26 @@
-<h1><strong><font e="font-size:3px">像我一样</font></strong></h1>
+<h1><strong><font s="font-size:1px">像我一样</font></strong></h1>
 <html>
        <body>
              <img src="https://p2.ssl.qhimgs1.com/t01b20c307c6824168c.jpg" alt="台风少年团">
        </body>
-       <p>歌词显示：</p>
+       <p><font s="font-size:2px">歌词显示：</font></p>
        <ol>
-              <li>星星睡在银河臂湾</li>
-              <li>各自闪着不同神采</li>
-              <li>唯有一颗独自呢喃</li>
-              <li>怎么才能亮得不平凡</li>
+              <li>星星睡在<u>银河臂湾</u></li>
+              <li>各自闪着<i>不同神采</i></li>
+              <li ><font face=楷体 color=darkmagenta>唯有一颗独自呢喃</font></li>
+              <li ><font face=楷体 color=darkmagenta>怎么才能亮得不平凡</font></li>
+       </ol>
+       <ul>
+              <li>云朵路过这片天空</li>
+              <li>变换着各样的面孔</li>
+              <li><font face=宋体 color=blue>也许在微风的眼中</font></li>
+              <li><font face=宋体 color=blue>它们都是自己的英雄</font></li>
+       </ul>
+        <ol>
+              <li>不做像谁一样的小孩</li>
+              <li>我只想像我一样存在</li>
+              <li><font face=黑体 color=crimson><u>就算在别人看来黯淡</u></font></li>
+              <li><font face=黑体 color=crimson><u>却唯独在你心里璀璨</u></font></li>
        </ol>
        <p><strong>歌手</strong>:<a href="https://baike.so.com/doc/5108964-27113771.html">马嘉祺</a>  <a href="https://baike.so.com/doc/24215627-24868754.html">丁程鑫</a>  <a href="https://baike.so.com/doc/24689754-25589448.html">宋亚轩</a>  <a href="https://baike.so.com/doc/10040269-28165438.html">刘耀文</a></p>
 </html>
