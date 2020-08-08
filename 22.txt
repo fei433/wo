@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <table width="500" border="0">
+            <tr>
+                <td><font color=green><b>Date</b></font><font color=red>*</font></td>
+                <td><form action=""><input type="text" value="mm-dd-yyyy"></form></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Date</td>
+            </tr>
+        </table>
+    </body>
+</html>
