@@ -1,0 +1,50 @@
+<html>
+    <body>
+        <h3 style="text-align: center;"><b>Pulling Strings</b></h3>
+        <p>Rules:<br>
+             <ul style="list-style-type: disc;">
+                 <li>You ARE allowed to use char,String</li>
+                 <li>Utilize "loops" and "if" conditions as necessary</li>
+                 <li>Use Scanner class when taking input</li>
+                 <li>Use of Simple Input is NOT allowed anymore</li>
+                 <li>This lab is to test your EXPERTISE in using the String class,so show maximum usages</li>
+             </ul>
+        </p>
+        <p>Take help from:<br>
+        <a href="http://java.sun.com/docs/books/tutorial/java/data/strings.html">http://www.javabat.com</a><br>
+        <a href="http://java.sun.com/docs/books/tutorial/java/data/strings.html">http://java.sun.com/docs/books/tutorial/java/data/strings.html</a><br>
+        See items containing the term "<b>String</b>" under "<b>2."</b><a href="http://www.java2s.com/Tutorial/Java/CatalogJava.htm">Data Type</a>" category from<br>
+                 <a href="http://www.java2s.com/Tutorial/Java/CatalogJava.htm">http://www.java2s.com/Tutorial/Java/CatalogJava.htm</a><br>
+        <a href="ftp://192.168.0.84/javadoc/api/java/lang/String.html">ftp://192.168.0.84/javadoc/api/java/lang/String.html</a><br>
+        <a href="http://java.sun.com/javase/7/docs/api/java/lang/String.html">http://java.sun.com/javase/7/docs/api/java/lang/String.html</a><br>
+        books?
+        </p>
+        <p><b><u>Task 1</u></b></p>
+        <p><b>Input a word into a String.Print the length of the word,that is,how many characters/symbols/spaces are there.Take help from:</b><br>
+            ONLY First 4 lines of "<font color=red><b>String Length</b></font>" paragraph from<br>
+            http://download.oracle.com/javase/tutorial/java/data/strings.html<br>
+            http://download.oracle.com/javase/7/docs/api/java/lang/String.html#length%28%29
+        </p>
+        <p><b>Sample input 1:</b><br>
+        Programming<br>
+        <b>Sample output 1:</b><br>
+        11
+        </p>
+        <p><b>Sample input 2:</b><br>
+         hunger<br>
+        <b>Sample output 2:</b><br>
+        6
+        </p>
+        <p><b><u>Task 2</u></b></p>
+        <p><b>Input a word into a String.Print each character n a line by itself.Use charAT method.Take help from:</b><br>
+            http://www.homeandlearn.co.uk/java/charAT.html<br>
+            http://www.java2s.com/Code/Java/Language-Basics/StrCharATshowStringcharAT.htm
+        </p>
+        <p><b>Sample input 1:</b><br>
+        Programming<br>
+        <b>Sample output 1:</b><br>
+        P
+        </p>
+        <p style="text-align: center;">Page 1 of 6</p>
+    </body>
+</html>

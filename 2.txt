@@ -1,0 +1,78 @@
+<html>
+    <body>
+        <h1 style="text-align: center;"><b><font color=green>Leave Appliction Form for School</font></b></h1>
+        <hr/>
+        <p><b><font color=green>Date</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="date" value="mm-dd-yyyy"><br>
+            Date<br>
+        </form>
+        <hr/>
+        <p><b><font color=green>Name</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="firstname"><br>
+            First Name<br>
+            <input type="text" name="lastname"><br>
+            Last Name<br>
+        </form>
+        <p><b><font color=green>Student ID</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="studentid" value="ex:23"><br>
+        </form>
+        <p><b><font color=green>Class&Sec.</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="class&sec."><br>
+        </form>
+        <p><b><font color=green>Reason for Leave</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="radio" name="reason" value="Bereavement Leave">Bereavement Leave<br>
+            <input type="radio" name="reason" value="Emergenct">Emergenct<br>
+            <input type="radio" name="reason" value="Medical Leave">Medical Leave<br>
+            <input type="radio" name="reason" value="Other"><input type="text" name="firstname" value="Other"><br>
+        </form>
+        <p><b><font color=green>Leave Duration</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="leave duration" value="Start Date"><br>
+            <input type="text" name="leave duration" value="End Date"><br>
+        </form>
+        <p><b><font color=green>No.of Days</font></b></p>
+        <form action="">
+            <input type="text" name="no.of days" value="ex:23"><br>
+        </form>
+        <p><b><font color=green>Name&Signature of the Parent/Guardian</font><font color=red>*</font></b></p>
+        <textarea rows="10" cols="30">
+        </textarea>
+        <form action="demo-form.php"><input type="submit" value="清除"></form>
+        <hr/>
+        <h1 style="text-align: center;"><b><font color=green>For Office Use</font></b></h1>
+        <hr/>
+        <p><b><font color=green>Date Received</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="date" value="mm-dd-yyyy"><br>
+            Date<br>
+        </form>
+        <p><b><font color=green>Received By:</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="text" name="firstname"><br>
+            First Name<br>
+            <input type="text" name="lastname"><br>
+            Last Name<br>
+        </form>
+        <p><b><font color=green>Position</font></b></p>
+        <form action="">
+            <input type="text" name="position"><br>
+        </form>
+        <p><b><font color=green>Leave Status</font><font color=red>*</font></b></p>
+        <form action="">
+            <input type="radio" name="status" values="Granted">Granted<br>
+            <input type="radio" name="status" values="Denied">Denied<br>
+        </form>
+        <p><b><font color=green>Remarks</font></b></p>
+        <textarea rows="10" cols="30">
+        </textarea>
+        <p><b><font color=green>Principal's Signature</font><font color=red>*</font></b></p>
+        <textarea rows="10" cols="30">
+        </textarea>
+        <form action="demo-form.php"><input type="submit" value="提交"></form>
+    </body>       
+</html>
