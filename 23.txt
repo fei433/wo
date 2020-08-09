@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>lianxi2</title>
+        <style>
+            h1{color:green;font-weight: 900;text-align: center;}
+            table{width:100%;}
+            tr{height:10px;}
+            td{text-align: left;vertical-align:top;}
+            p.clear{font-weight: 900;text-align: right;text-decoration: underline;}
+            td.kuang{list-style-type: square;}
+            p.b{text-align:center;background-color: green;}
+        </style>
+    </head>
+    <body>
+        <h1>Leave Application Form for School</h1>
+        <table>
+            <tr>
+                <td><b><font color=green>Date</font></b><font color=red>*</font></td>
+                <td><form><input type="text" value="mm-dd-yyyy"></form></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Date</td>
+            </tr>
+            <hr/>
+            <tr>
+                <td><b><font color=green>Name</font></b><font color=red>*</font></td>
+                <td><form action=""><input type="text"> <input type="text"></form></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>First Name Last Name</td>
+            </tr>
+            <tr>
+                <td><b><font color=green>Student ID</font></b><font color=red>*</font></td>
+                <td><form action=""><input type="text" value="ex:23"></form></td>
+            </tr>
+            <tr>
+                <td><b><font color=green>Class&Sec.</font></b><font color=red>*</font></td>
+                <td><form action=""><input type="text"></form></td>
+            </tr>
+            <tr>
+                <td><b><font color=green>Reason for Leave</font></b><font color=red>*</font></td>
+                <td><form action=""><input type="radio" value="Bereavement Leave">Bereavement Leave<br><input type="radio" value="Emergency Leave">Emergency Leave<br><input type="radio" value="Medical Leave">Medical Leave<br><input type="radio"><input type="text" value="Other"></form></td>  
+            </tr>
+            <tr>
+                <td><b><font color=green>Leave Duration</font></b><font color=red>*</font></td>
+                <td class="kuang"><form action=""><input type="text" value="Start Date"><br><input type="text" value="Start Date"><br></form></td>
+            </tr>
+            <tr>
+                <td><b><font color=green>No.of Days</font></b></td>
+                <td><form action=""><input type="text" value="ex:23"></form></td>
+            </tr>
+        </table>
+        <p><b><font color=green>Name&Signature of the Parent/Guardian</font></b><font color=red>*</font><form action=""><textarea rows="30" cols="100"></textarea></form></p>
+        <p class="clear">Clear</p>   
+        <hr/>
+        <h1>For Office Use</h1>
+        <hr/>
+        <table>
+            <tr>
+                <td><b><font color=green>Date Received</font></b><font color=red>*</font></td>
+                <td><form><input type="text" value="mm-dd-yyyy"></form></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td>Date</td>
+            </tr>
+            <tr>
+                <td><b><font color=green>Received By</font></b><font color=red>*</font></td>
+                <td><form action=""><input type="text"> <input type="text"></form></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>First Name Last Name</td>
+            </tr>
+            <tr>
+                <td><b><font color=green>Position</font></b></td>
+                <td><form action=""><input type="text"></form></td>
+            </tr>
+            <tr>
+                <td><b><font color=green>Leave Status</font></b><font color=red>*</font></td>
+                <td><form action=""><input type="radio" value="Granted">Granted<br><input type="radio" value="Denied">Denied</form></td>  
+            </tr>
+        </table>
+        <p><b><font color=green>Remarks</font></b><br><textarea rows="15" cols="100"></textarea></p>
+        <p><b><font color=green>Principal's Signature</font></b><font color=red>*</font><form action=""><textarea rows="10" cols="30"></textarea></form></p>
+        <p class="clear">Clear</p>
+        <p class="b"><form action=""><input type="button" value="提交"></p>
+    </body>
+</html>
