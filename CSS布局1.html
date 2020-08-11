@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            .container{position:relative;width:600px;height:1000px;border:1px solid black}
+            .yi{position:absolute;width:600px;height:50px;background-color: black;color:white;}
+            .yymenu{float:left;width:100px;}
+            select.yymenu{background-color: black;color: white;text-align: center;border: none;}
+            .title{font-family:arial,sans-serif;text-align: center; }
+            button.exit{float:right;width:100px;height:50px;text-align: center;background-color: black;color: white;border: none;}
+            .er{position:absolute;top: 50px;width:600px;height:100px;}
+            button.b{width:150px;height:100px;background-color:cyan;color: black;border:1px solid black;}
+            .san{position: absolute;top:150px;width:600px;height:450px;background-color:white;}
+            button.b2{width:200px;height:100px;background-color: green;color:black;border:20px solid white;}
+            textarea{width:50px;height:25px;border:2px solid black; border-radius: 4px;background-color: green;color:black;resize:none;text-align: center;}
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="container">
+                <div class="yi">
+                    <div class="yymenu">
+                        <select name="yymenu">
+                            <option value="">应用菜单</option>
+                            <option value="外卖订单">外卖订单</option>
+                            <option value="修改密码">修改密码</option>
+                        </select>
+                    </div>
+                    <button type="exit" class="exit">退出</button>
+                    <div class="title">
+                        <div>刘家西安刀削面 空港店 用户名</div>
+                    </div>
+                </div> 
+                <div class="er">
+                        <button class="b">餐桌</button><button class="b">包间</button><button class="b">室外席</button><button class="b">其他</button>   
+                </div>
+                <div class="san">
+                    <button class="b2">桌01<br/><textarea>空闲</textarea></button><button class="b2">桌02<br/><textarea>空闲</textarea></button><button class="b2">桌03<br/><textarea>空闲</textarea></button><br/>
+                    <button class="b2">桌04<br/><textarea>空闲</textarea></button><button class="b2">桌05<br/><textarea>空闲</textarea></button><button class="b2">桌06<br/><textarea>空闲</textarea></button><br/>
+                    <button class="b2">桌07<br/><textarea>空闲</textarea></button><button class="b2">桌08<br/><textarea>空闲</textarea></button><button class="b2">桌09<br/><textarea>空闲</textarea></button><br/>
+                </div>
+            </div> 
+        </form>
+    </body>
+</html>
