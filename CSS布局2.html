@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            .container{position:relative;width:600px;height:1000px;border:1px solid black}
+            .yi{position:absolute;width:600px;height:50px;background-color: black;color:white;}
+            button.b1{float:left;width:100px;height:50px;text-align: center;background-color: black;color: white;border: none;}
+            button.b{float:right;width:100px;height:50px;text-align: center;background-color: black;color: white;border: none;}
+            .title{margin:15px;text-align: center;}
+            .er{position: absolute;top:50px;}
+            button.b2{width:200px;height:50px;background-color:cyan;color: black;border:1px solid black;text-align: center;}
+            .san{position:absolute;top:100px;width:600px;height:50px;}
+            input.jiansuo{width:400px;height:50px;text-align:left;border: 1px solid black;background-color: blanchedalmond;}
+            button.b3{width:100px;height:50px;background-color: gray;color:black;border:1px solid black;text-align: center;}
+            .si{position: absolute;top:150px;width:200px;height:850px;background-color: white;}
+            button.b4{width:150px;height:100px;background-color:darkmagenta;color:black;border:1px solid black;text-align: center;}
+            .wu{position:absolute;left:200px;top:150px;background-color:white;width:150px;height:850px;}
+            img{width:150px;height:150px;border: 10px solid white;}
+            .liu{position: absolute;top:150px;left:350px;background-color:white;width:150px;height:850px;}
+            .xinxi{border:10px solid white;width:150px;height:150px;}
+            .ming{font-size: 30px;font-weight: 900;width:150px;height:50px;}
+            .xz{width:150px;height:50px;font-size: 20px;}
+            .sz{width:150px;height:50px;}
+            button.tj{width:100px;height:50px;text-align: center;background-color: yellow;color: blue;}
+            .qi{position:fixed;bottom: 0px;left: 0px;width:600px;height:100px;background-color: black;}
+            .qian{color:white;text-align: center;width:400px;margin:40px;}
+            button.b5{float:right;background-color: red;color:black;text-align: center;border:1px solid yellow;}/*不显示*/
+        </style>
+    </head>
+    <body>
+        <form>
+            <div class="container">
+                <div class="yi">
+                    <button class="b">返回</button>
+                    <button class="b1">退出</button>
+                    <div class="title">桌号</div>
+                </div>
+                <div class="er">
+                    <button class="b2">菜单</button><button class="b2">已选</button><button class="b2">已下单</button>
+                </div>
+                <div class="san">
+                    <input type="text" class="jiansuo" placeholder="菜名或编号..."><button class="b3">清空</button><button class="b3">搜索</button>
+                </div>
+                <div class="si">
+                    <button class="b4">面类</button><button class="b4">饺子</button><button class="b4">零食</button><button class="b4">甜点</button><button class="b4">饮料</button><button class="b4">点心</button><button class="b4">中国菜</button><button class="b4">火锅</button>
+                </div>
+                <div class="wu">
+                    <img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg"><img src="https://static.emenu.vip/2019/2939b1e222dc47318faa01f0d23e7e00.jpg"><img src="http://static.emenu.vip/2019/c2a828e45580401290a58e4bee618f2f.jpg"><img src="http://static.emenu.vip/2019/5f65421d88bc4811b696a934a6b64571.jpg">
+                </div>
+                <div class="liu">
+                    <div class="xinxi">
+                        <div class="ming">葱油饼</div>
+                        <div class="xz"><input type="radio" value="堂食" title="堂食" checked="">堂食<input type="radio" value="外带" title="外带">外带</div>
+                        <div class="sz"><button class="tj">添加</button></div>
+                    </div>
+                </div>
+                <div class="qi">
+                    <div class="qian">合计消费</div><button class="b5">去下单</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
