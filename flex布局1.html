@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <style>
+            .box{
+                width: 600px;
+                height:800px;
+                border: 1px solid black;
+                display:flex;
+                flex-direction:column;
+            }
+            .itemtitle{
+                display:flex;
+                height:50px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                align-items: flex-end;
+            }
+            .item{
+                flex:1;
+            }
+            .item2{
+                flex:0 0 50%;
+            }
+            .canzhuofenlei{
+                display: flex;
+                height:100px;
+                background-color: green;
+                color: black;
+                text-align: center;
+                align-items: center;
+                border:1px solid black;
+            }
+            .zhuohao{
+                display: flex;
+                flex-wrap: wrap;
+                background-color:white;
+                color:black;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+            }
+            .zhuo{
+                width:30%;
+                height:200px;
+                background-color: yellow;
+                border:5px solid white;
+            }
+            span{
+                border:1px solid black;
+                border-radius: 4px;
+                width:15px;
+                height:15px;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="itemtitle">
+                <div class="item item1">选择</div>
+                <div class="item item2">刘家西安刀削面空港店 用户名</div>
+                <div class="item item3">退出</div>
+            </div>
+            <div class="canzhuofenlei">
+                <div class="item">餐桌</div>
+                <div class="item">包间</div>
+                <div class="item">室外席</div>
+                <div class="item">其他</div>
+            </div>
+            <div class="zhuohao">
+                <div class="zhuo">桌01<br/><span>空闲</span></div>
+                <div class="zhuo">桌02<br/><span>空闲</span></div>
+                <div class="zhuo">桌03<br/><span><a href="file:///C:/Users/wang/Desktop/flex%E5%B8%83%E5%B1%802.html">使用中</a></span></div>
+                <div class="zhuo">桌04<br/><span>空闲</span></div>
+            </div>
+        </div>
+    </body>
+</html>

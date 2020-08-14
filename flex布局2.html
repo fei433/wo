@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <style>
+            .box{
+                width: 600px;
+                height:800px;
+                border: 1px solid black;
+                display:flex;
+                flex-direction:column;
+            }
+            .itemtitle{
+                display:flex;
+                height:50px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                align-items: center;
+            }
+            .item{
+                flex:1;
+            }
+            .item2{
+                flex:0 0 50%;
+            }
+            .xuanze{
+                display: flex;
+                height:50px;
+                text-align: center;
+            }
+            .caidan{
+                width:200px;
+                background-color: white;
+                color:red;
+                border: none;
+            }
+            .yixuan{
+                width:200px;
+                background-color:orange;
+                color:white;
+                border: none;
+            }
+            .yixiadan{
+                width:200px;
+                background-color:green;
+                color:white;
+                border: none;
+            }
+            .jiansuo{
+                display: flex;
+                height:50px;
+                text-align: center;
+            }
+            input{
+                width:400px;
+                height:50px;
+                border:1px solid black;
+            }
+            .qingkong{
+                width:100px;
+                background-color:gray;
+                color:black;
+                border:1px solid black;
+            }
+            .sousuo{
+                width:100px;
+                background-color:gray;
+                color:black;
+                border:1px solid black;
+            }
+            a{
+                text-decoration: none;
+                color:white;
+            }
+            .caipin{
+                display:flex;
+                flex-wrap: wrap;
+            }
+            ul.xin{
+                flex:0 0 70%;
+                list-style-type:none;
+                margin:0px;
+                padding:0px;
+            }
+            ul.leiming{
+                flex:0 0 30%;
+                list-style-type:none;
+                margin:0px;
+                padding:0px;
+            }
+            li.left{
+                width:100%;
+                height:100px;
+                background-color: chartreuse;
+                color:black;
+                text-align:center;
+                border:1px solid black;
+                flex:1;
+            }
+            img{
+                width:100px;
+                height:100px;
+            }
+            .foot{
+                display: flex;
+                margin:0px;
+                align-items: flex-end;
+            }
+            .jine{
+                width:70%;
+                height:50px;
+                background-color: black;
+                color:white;
+            }
+            .xiadan{
+                width:30%;
+                height:50px;
+                background-color: yellowgreen;
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="itemtitle">
+                <div class="item item1">返回</div>
+                <div class="item item2">桌号</div>
+                <div class="item item3">退出</div>
+            </div>
+            <div class="xuanze">
+                <div class="caidan">菜单</div>
+                <div class="yixuan"><a href="file:///C:/Users/wang/Desktop/yixuan.html">已选</a></div>
+                <div class="yixiadan"><a href="file:///C:/Users/wang/Desktop/yixiadan.html">已下单</a></div>
+            </div>
+            <div class="jiansuo">
+                <div ><input type="text" placeholder="菜品名称或编号..."></div>
+                <div class="qingkong">清空</div>
+                <div class="sousuo">搜索</div> 
+            </div>
+            <div class="caipin">
+                <ul class="leiming">
+                    <li class="left">面类</li>
+                    <li class="left">面类</li>
+                    <li class="left">面类</li>
+                </ul>
+                <ul class="xinxi">
+                    <li class="right">
+                        <img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg">
+                        <span>葱油饼</span>
+                        <span><input type="radio">堂食<input type="radio">外带</span>
+                        <span><button>添加</button></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot">
+                <div class="jine">合计金额</div>
+                <div class="xiadan">去下单</div>
+            </div>
+        </div>
+    </body>
+</html>
