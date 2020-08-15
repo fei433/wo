@@ -6,8 +6,9 @@
                 background-color: black;
                 color: white;
                 text-align: center;
-                margin:10pxpx;
-                padding:10px;
+                margin:0px;
+                padding:0px;
+                line-height: 50px;
             }
             .item{
                 flex:1;
@@ -87,25 +88,34 @@
                 border:1px solid black;
             }
             ul.xinxi{
+                margin: 0px;
+                padding:0px;
                 display: flex;
                 width:60%;
-                line-height: 200px;
-                list-style-type: none;
+                line-height: 100px;
+                list-style-type: none; 
+                flex-direction: column;
             }
             li.right{
                 display: flex;
+                flex-wrap: wrap;
+                color:black;
+                background-color: white;
+                border:10px solid white;
             }
-            img{
-                float:left;
-                width:100px;
-                height:100px;
+            .tupian{
+                width:40%;
             }
             .cai{
-                text-align: center;
+                width:60%;
+                text-align:left;
             }
-            input.chifangshi{
-                width:50px;
-                height:50px;
+            img{
+                width:100%;
+                height:100%;
+            }
+            img.contain{
+                object-fit: contain;
             }
             button.tianjia{
                 background-color: yellow;
@@ -114,6 +124,9 @@
             .foot{
                 display:flex;
                 line-height: 100px;
+                position:fixed;
+                bottom:0px;
+                width:100%;
             }
             .jine{
                 width:70%;
@@ -131,7 +144,7 @@
     </head>
     <body>
         <div class="itemtitle">
-            <div class="item item1">返回</div>
+            <div class="item item1"><a href="file:///C:/Users/wang/Desktop/flex%E5%B8%83%E5%B1%801.html">返回</a></div>
             <div class="item item2">桌号</div>
             <div class="item item3">退出</div>
         </div>
@@ -158,8 +171,28 @@
             </ul>
             <ul class="xinxi">
                 <li class="right">
-                    <img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg">
-                    
+                    <div class="tupian"><img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg" class="contain"></div>
+                    <div class="cai">葱油饼<br/>堂食/外带<br/><button class="tianjia">添加</button></div>
+                </li>
+                <li class="right">
+                    <div class="tupian"><img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg" class="contain"></div>
+                    <div class="cai">葱油饼<br/>堂食/外带<br/><button class="tianjia">添加</button></div>
+                </li>
+                <li class="right">
+                    <div class="tupian"><img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg" class="contain"></div>
+                    <div class="cai">葱油饼<br/>堂食/外带<br/><button class="tianjia">添加</button></div>
+                </li>
+                <li class="right">
+                    <div class="tupian"><img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg" class="contain"></div>
+                    <div class="cai">葱油饼<br/>堂食/外带<br/><button class="tianjia">添加</button></div>
+                </li>
+                <li class="right">
+                    <div class="tupian"><img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg" class="contain"></div>
+                    <div class="cai">葱油饼<br/>堂食/外带<br/><button class="tianjia">添加</button></div>
+                </li>
+                <li class="right">
+                    <div class="tupian"><img src="http://static.emenu.vip/2019/e2c81437097a4cab9d4c59234c2c2b1c.jpg" class="contain"></div>
+                    <div class="cai">葱油饼<br/>堂食/外带<br/><button class="tianjia">添加</button></div>
                 </li>
             </ul>
         </div>
